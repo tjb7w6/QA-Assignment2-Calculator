@@ -33,3 +33,7 @@ double mainClass::getNumInput() {
 	num = 1.5;
 	return num;
 }
+
+double addition::add(double a, double b) {
+	return a + b;
+}

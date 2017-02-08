@@ -14,13 +14,20 @@ namespace TestCalculator
 		{
 			mainClass main = mainClass();
 			Assert::AreEqual('+', main.getCharInput()); 
-			//because testing '+' output a positive result, we can make an assumptiopn that all inputs will be valid and begin refactoring
 		}
 		
 		TEST_METHOD(TestNumberInput)
 		{
 			mainClass main = mainClass();
 			Assert::AreEqual(1.5, main.getNumInput());
+			//because testing 1.5 output a positive result, we can make an assumption that all inputs will be valid
+		}
+
+		TEST_METHOD(TestAddition)
+		{
+			mainClass main = mainClass();
+			addition plus = addition();
+			Assert::AreEqual(4.0, plus.add(main.getNumInput(), main.getNumInput()));
 		}
 	};
 }
