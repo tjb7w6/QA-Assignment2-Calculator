@@ -12,9 +12,9 @@ namespace TestCalculator
 		
 		TEST_METHOD(TestOperationPlus)
 		{
-            operation op = operation();
-            Assert::AreEqual('+', op.getInput('+'));
+			mainClass main = mainClass();
+			Assert::AreEqual('+', main.getCharInput());
 		}
-
+		
 	};
 }
