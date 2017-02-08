@@ -30,7 +30,7 @@ char mainClass::getCharInput() {
 double mainClass::getNumInput() {
 	double num;
 	//cin >> num;
-	num = 3;
+	num = 2;
 	return num;
 }
 
