@@ -10,3 +10,8 @@ class addition {
 public:
 	double add(double a, double b);
 };
+
+class subtraction {
+public:
+	double subtract(double a, double b);
+};

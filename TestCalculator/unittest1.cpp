@@ -28,5 +28,12 @@ namespace TestCalculator
 			addition plus = addition();
 			Assert::AreEqual(4.0, plus.add(main.getNumInput(), main.getNumInput()));
 		}
+
+		TEST_METHOD(TestSubtraction)
+		{
+			mainClass main = mainClass();
+			subtraction minus = subtraction();
+			Assert::AreEqual(1.0, minus.subtract(main.getNumInput(), 2.0));
+		}
 	};
 }
