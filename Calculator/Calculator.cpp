@@ -26,3 +26,10 @@ char mainClass::getCharInput() {
 
 	return op;
 }
+
+double mainClass::getNumInput() {
+	double num;
+	//cin >> num;
+	num = 1;
+	return num;
+}

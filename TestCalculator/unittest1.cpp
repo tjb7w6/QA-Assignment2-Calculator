@@ -17,6 +17,10 @@ namespace TestCalculator
 			//because testing '+' output a positive result, we can make an assumptiopn that all inputs will be valid and begin refactoring
 		}
 		
-		
+		TEST_METHOD(TestNumberInput)
+		{
+			mainClass main = mainClass();
+			Assert::AreEqual(1.5, main.getNumInput());
+		}
 	};
 }
