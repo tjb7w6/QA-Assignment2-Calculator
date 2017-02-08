@@ -1,3 +1,6 @@
+// Trenton Briggs
+// Christian Upschulte
+
 #pragma once
 
 class mainClass {

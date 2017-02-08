@@ -1,3 +1,6 @@
+// Trenton Briggs
+//Christian Upschulte
+
 #include "stdafx.h"
 #include "CppUnitTest.h"
 #include "../Calculator/Calculator.h"
