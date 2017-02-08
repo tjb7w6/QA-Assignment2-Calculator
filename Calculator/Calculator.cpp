@@ -41,3 +41,7 @@ double addition::add(double a, double b) {
 double subtraction::subtract(double a, double b) {
 	return a - b;
 }
+
+double multiplication::multiply(double a, double b) {
+	return a*b;
+}

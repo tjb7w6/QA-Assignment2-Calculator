@@ -15,3 +15,8 @@ class subtraction {
 public:
 	double subtract(double a, double b);
 };
+
+class multiplication {
+public:
+	double multiply(double a, double b);
+};
