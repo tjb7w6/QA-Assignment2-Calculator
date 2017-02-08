@@ -45,3 +45,7 @@ double subtraction::subtract(double a, double b) {
 double multiplication::multiply(double a, double b) {
 	return a*b;
 }
+
+double division::divide(double a, double b) {
+	return a / b;
+}

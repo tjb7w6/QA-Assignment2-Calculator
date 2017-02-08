@@ -42,5 +42,12 @@ namespace TestCalculator
 			multiplication star = multiplication();
 			Assert::AreEqual(9.0, star.multiply(main.getNumInput(), 4.5));
 		}
+
+		TEST_METHOD(TestDivision)
+		{
+			mainClass main = mainClass();
+			division slash = division();
+			Assert::AreEqual(1.0, slash.divide(main.getNumInput(), 3.0));
+		}
 	};
 }
