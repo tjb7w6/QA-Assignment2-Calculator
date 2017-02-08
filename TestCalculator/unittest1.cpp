@@ -19,14 +19,14 @@ namespace TestCalculator
 		TEST_METHOD(TestNumberInput)
 		{
 			mainClass main = mainClass();
-			Assert::AreEqual(2.0, main.getNumInput());
+			Assert::AreEqual(3.0, main.getNumInput());
 		}
 
 		TEST_METHOD(TestAddition)
 		{
 			mainClass main = mainClass();
 			addition plus = addition();
-			Assert::AreEqual(4.0, plus.add(main.getNumInput(), main.getNumInput()));
+			Assert::AreEqual(6.0, plus.add(main.getNumInput(), main.getNumInput()));
 		}
 
 		TEST_METHOD(TestSubtraction)
