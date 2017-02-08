@@ -5,4 +5,5 @@ private:
 	char op;
 public:
 	char getCharInput();
+
 };

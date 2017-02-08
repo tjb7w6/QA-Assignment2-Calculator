@@ -12,7 +12,17 @@ int main() {
 
 char mainClass::getCharInput() {
 	char op;
+	bool input = false;
 	//cin >> op;
 	op = '+';
+	do{
+		if (op == '+' || op == '-' || op == '*' || op == '/') {
+			input = true;
+		}
+		else {
+			std::cout << "Invalid input, try again" << endl;
+		}
+	} while (!input);
+
 	return op;
 }
