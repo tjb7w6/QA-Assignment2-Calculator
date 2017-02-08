@@ -7,6 +7,11 @@
 using namespace std;
 
 int main() {
+	char math;
+	cout << "+,-,*,/?" << endl;
+	cin >> math;
+	operation op = operation();
+	op.getInput(math);
     return 0;
 }
 /*
@@ -26,12 +31,10 @@ float division::divide(float a, float b) {
     return a / b;
 }
 */
-char operation::getInput() {
+char operation::getInput(char math) {
     bool input = false;
-    char math;
-    cout << "+,-,*,/?" << endl;
-    cin >> math;
-    /*
+
+    
     do {
         if (math == '+' || math == '-' || math == '*' || math == '/') {
             input = true;
@@ -40,7 +43,7 @@ char operation::getInput() {
             std::cout << "Invalid input, try again" << endl;
         }
     } while (!input);
-    */
+    
     return math;
 }
 

@@ -13,7 +13,7 @@ namespace TestCalculator
 		TEST_METHOD(TestOperationPlus)
 		{
             operation op = operation();
-            Assert::AreEqual('+', op.getInput());
+            Assert::AreEqual('+', op.getInput('+'));
 		}
 
 	};

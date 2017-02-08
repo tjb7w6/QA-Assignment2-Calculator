@@ -22,5 +22,5 @@ public:
 */
 class operation {
 public:
-    char getInput();
+    char getInput(char math);
 };
