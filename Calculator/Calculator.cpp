@@ -13,6 +13,6 @@ int main() {
 char mainClass::getCharInput() {
 	char op;
 	//cin >> op;
-	op = 'a';
+	op = '+';
 	return op;
 }
