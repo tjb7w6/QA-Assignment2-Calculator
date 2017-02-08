@@ -19,8 +19,7 @@ namespace TestCalculator
 		TEST_METHOD(TestNumberInput)
 		{
 			mainClass main = mainClass();
-			Assert::AreEqual(1.5, main.getNumInput());
-			//because testing 1.5 output a positive result, we can make an assumption that all inputs will be valid
+			Assert::AreEqual(2.0, main.getNumInput());
 		}
 
 		TEST_METHOD(TestAddition)
